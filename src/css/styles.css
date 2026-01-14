@@ -1105,3 +1105,38 @@ body {
 body.menu-open {
   overflow: hidden;
 }
+/* Стили для юридических страниц */
+.pages {
+  padding: 160px 0 100px;
+  min-height: 80vh;
+}
+
+.pages h1 {
+  font-size: clamp(28px, 4vw, 48px);
+  margin-bottom: 40px;
+  color: var(--color-primary);
+}
+
+.pages h2 {
+  font-size: 24px;
+  margin: 40px 0 20px;
+  color: var(--color-text);
+}
+
+.pages p {
+  color: var(--color-text-muted);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.pages ul {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.pages li {
+  color: var(--color-text-muted);
+  margin-bottom: 10px;
+  position: relative;
+  list-style: disc;
+}
